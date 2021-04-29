@@ -1,0 +1,119 @@
+a.button24 {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: .5em 2em;
+  outline: none;
+  border-width: 2px 0;
+  border-style: solid none;
+  border-color: #FDBE33 #000 #D77206;
+  border-radius: 6px;
+  background: linear-gradient(#F3AE0F, #E38916) #E38916;
+  transition: 0.2s;
+}
+a.button24:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+a.button24:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+
+
+.tabs {
+      max-width: 950px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .tabs>input[type="radio"] {
+      display: none;
+    }
+
+    .tabs>input[type="radio"]:checked+label {
+      background-color: #bdbdbd;
+    }
+
+    .tabs>div {
+      /* скрыть контент по умолчанию */
+      display: none;
+      border: 1px solid #eee;
+      padding: 10px 15px;
+      border-radius: 4px;
+    }
+
+    /* отобразить контент, связанный с вабранной радиокнопкой (input type="radio") */
+    #tab-btn-01:checked~#content-01,
+    #tab-btn-02:checked~#content-02,
+    #tab-btn-03:checked~#content-03,
+    #tab-btn-04:checked~#content-04,
+    #tab-btn-05:checked~#content-05,
+    #tab-btn-06:checked~#content-06,
+    #tab-btn-07:checked~#content-07,
+    #tab-btn-08:checked~#content-08,
+    #tab-btn-09:checked~#content-09,
+    #tab-btn-10:checked~#content-10,
+    #tab-btn-11:checked~#content-11,
+    #tab-btn-12:checked~#content-12,
+    #tab-btn-13:checked~#content-13,
+    #tab-btn-14:checked~#content-14,
+    #tab-btn-15:checked~#content-15,
+    #tab-btn-16:checked~#content-16,
+    #tab-btn-17:checked~#content-17,
+    #tab-btn-18:checked~#content-18,
+    #tab-btn-19:checked~#content-19,
+    #tab-btn-20:checked~#content-20,
+    #tab-btn-21:checked~#content-21,
+    #tab-btn-22:checked~#content-22,
+    #tab-btn-23:checked~#content-23,
+    #tab-btn-24:checked~#content-24,
+    #tab-btn-25:checked~#content-25,
+    #tab-btn-26:checked~#content-26,
+    #tab-btn-27:checked~#content-27,
+    #tab-btn-28:checked~#content-28,
+    #tab-btn-29:checked~#content-29
+
+
+
+    {
+      display: block;
+    }
+
+    .tabs>label {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle;
+      user-select: none;
+      background-color: #eee;
+      border: 1px solid transparent;
+      padding: 2px 8px;
+      font-size: 16px;
+      line-height: 1.5;
+      border-radius: 4px;
+      transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+      margin-left: 6px;
+      cursor: pointer;
+      margin-bottom: 10px;
+    }
+
+    .tabs>label:first-of-type {
+      margin-left: 0;
+    }
+
+
+
+    table.iksweb{
+	width: 100%;
+	border-collapse:collapse;
+	border-spacing:0;
+	height: auto;
+}
+table.iksweb,table.iksweb td, table.iksweb th {
+	border: 1px solid #595959;
+}
+table.iksweb td,table.iksweb th {
+	padding: 3px;
+	width: 30px;
+	height: 35px;
+}
+table.iksweb th {
+	background: #347c99;
+	color: #fff;
+	font-weight: normal;
+}
